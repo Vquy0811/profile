@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 1</title>
+<style>
+    .box {
+        width: 200px;
+        height: 100px;
+        border: 1px solid black;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    header{
+        width: 100%;
+        height: 300px;
+        background-image: url("https://caodang.fpt.edu.vn/wp-content/uploads/FPT_Polytechnic_Hanoi.jpg");
+        border: 2px red solid;
+        background-position: center;
+        background-size: cover;
+    }
+    nav{
+        text-align: center;
+        background-color: rgb(253, 6, 10);
+        margin-top: 10px;
+        padding: 10px;
+    }
+    nav a{
+        color: white;
+        margin: 15px;
+        text-decoration: none;
+        
+    }
+
+    article{
+        float: left;
+        width: 74%;
+        height: 300px;
+        border: blue 2px solid;
+    }
+
+    aside{
+        float: right;
+        width: 25%;
+        height: 300px;
+        border: red 2px solid;
+    }
+
+    footer{
+        border: 5px solid rgb(244, 255, 29);
+        clear: both;
+        background: gray;
+        text-align: center;
+        color: white;
+    }
+    
+</style>
+</head>
+<body>
+    <div class="comtainer">
+    <header>
+
+
+    </header>
+    <nav>
+        <a href="trang-chu.html" target="frame" >Trang chủ</a> |
+        <a href="gioi-thieu.html" target="frame" >Giới thiệu</a> |
+        <a href="gop-y.html" target="frame">Góp ý</a> |
+        <a href="hoi-dap.html" target="frame" >Hỏi đáp</a> 
+    </nav>
+
+    <article>
+        <iframe name="frame" frameborder="0"></iframe>
+    </article>
+
+    <aside>
+        <ul>
+        </ul>
+    </aside>
+
+    <footer>
+        <h4>FPT Polytechnic</h4>
+    </footer>
+    </div>
+</body>
+</html>
